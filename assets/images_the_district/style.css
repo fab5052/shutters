@@ -1,0 +1,244 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    body { text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+  
+    }
+  
+
+  .logo {
+  
+    width: 150px;
+    height: 150px;
+  
+   
+  }
+
+  .parallax {
+    background-image: url("https://img.freepik.com/vecteurs-libre/vecteur-conception-cadre-malbouffe-vierge_53876-108748.jpg?size=626&ext=jpg&ga=GA1.2.535422432.1704270397&semt=ais");
+
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: cover ; /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    background-color: black;
+    overflow: hidden;
+    
+  }
+
+  /*.searchForm {
+    display: none;
+  }
+
+  #tip3-title { text-align: left; }
+
+#tip3-title b { display: block; margin-right: 80px; }
+
+#tip3-title span { float: right; }
+
+:root{
+  --color1: #4b3bd0;
+  --color2: red;
+}*/
+
+
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+      font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+      height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination>.btn {
+  border-radius: 2rem;
+}
+
+/*
+* Blog posts
+*/
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+* Footer
+*/
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------- */
+
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+   
+  }
+
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    width: 100%;
+  }
+
+  .carousel-item>img {
+
+    top: 0;
+    left: 20;
+    height: 32rem;
+  }
+
+
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+
+  /* Featurettes
+------------------------- */
+
+  .featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+  }
+
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+
